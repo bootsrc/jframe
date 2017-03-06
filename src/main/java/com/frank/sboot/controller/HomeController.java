@@ -1,8 +1,11 @@
 package com.frank.sboot.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.frank.sboot.biz.service.DemoService;
 
 /** 
 * @author  Frank Liu
@@ -12,6 +15,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping("")
 @Controller
 public class HomeController {
+	@Autowired
+	private DemoService demoService;
+	
 	@RequestMapping("")
 	@ResponseBody
 	public String index() {
@@ -21,5 +27,14 @@ public class HomeController {
 	@RequestMapping("hello")
 	public String hello() {
 		return "hello";
+	}
+	
+	@RequestMapping("update")
+	@ResponseBody
+	public String update() {
+		int id = 6;
+		String name = "aaa";
+		demoService.updateName(id, name);
+		return "Test DB.";
 	}
 }
