@@ -5,6 +5,8 @@
 
 - spring.factories
 
+**自己写starter**
+
 测试
 
 [http://localhost:29001/starter/x123](http://localhost:29001/starter/x123)
