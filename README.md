@@ -5,7 +5,7 @@
 
 - spring.factories
 
-**自己写starter**
+**自己写spring-boot-starter**
 
 测试
 
