@@ -1,2 +1,3 @@
+# Auto Configuration
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
 com.lsm.jframe.config.JframeAutoConfigure
