@@ -1,4 +1,4 @@
-package com.lsm.jframe;
+package com.lsm.jframeapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

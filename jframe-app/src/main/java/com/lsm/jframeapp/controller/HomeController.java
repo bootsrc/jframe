@@ -1,4 +1,4 @@
-package com.lsm.jframe.app.controller;
+package com.lsm.jframeapp.controller;
 
 import com.lsm.jframe.api.JframeService;
 import org.springframework.beans.factory.annotation.Autowired;
