@@ -1,6 +1,6 @@
 package com.lsm.jframe.app.controller;
 
-import com.lsm.jframe.core.api.JframeService;
+import com.lsm.jframe.api.JframeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

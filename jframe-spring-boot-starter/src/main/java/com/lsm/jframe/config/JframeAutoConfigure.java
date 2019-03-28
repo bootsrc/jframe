@@ -1,6 +1,6 @@
-package com.lsm.jframe.core.config;
+package com.lsm.jframe.config;
 
-import com.lsm.jframe.core.api.JframeService;
+import com.lsm.jframe.api.JframeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;

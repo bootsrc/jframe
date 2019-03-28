@@ -1,4 +1,4 @@
-package com.lsm.jframe.core.api;
+package com.lsm.jframe.api;
 
 public class JframeService {
     private String prefix;

@@ -1,4 +1,4 @@
-package com.lsm.jframe.core.config;
+package com.lsm.jframe.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
