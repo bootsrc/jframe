@@ -15,7 +15,7 @@
     应用[jframe-app](jframe-app)
 
     比如spring官方的<code>spring-boot-starter-web, spring-boot-starter-redis</code>
-    第三方的比如<code>mybatis-spring-boot-starter, druid-spring-boot-starter<code>
+    第三方的比如<code>mybatis-spring-boot-starter, druid-spring-boot-starter</code>
 
 - ConnectionPool
 
@@ -31,14 +31,13 @@
 
 - 动态代理
 
-    开发中...
-
+    开发中... <br/>
     AOP的实现原理，基于InvocationHandler+Proxy，解答问题为什么Mybatis的dao接口不需要实现类.
 
 ## 分类说明
 **自己写spring-boot-starter**
 
-测试:比如我这里是<code>jframe-spring-boot-starter</code>
+测试:比如我这里是<code>jframe-spring-boot-starter </code>
 
 [http://localhost:29001/starter/x123](http://localhost:29001/starter/x123)
 
