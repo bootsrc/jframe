@@ -9,7 +9,7 @@
 
     springboot的spring factory开发，也叫springboot扩展点开发。使用的时候，可以被springboot的
     
-    SpringFactoriesLoader处理,这里会执行starer中的代码，以完成我们的springboot扩展功能。
+    SpringFactoriesLoader处理,这里会执行starter中的代码，以完成我们的springboot扩展功能。
 
     开发已完成，点击进入[jframe-spring-boot-starter](jframe-spring-boot-starter)
     应用[jframe-app](jframe-app)
