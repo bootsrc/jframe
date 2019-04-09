@@ -11,12 +11,12 @@ import java.lang.reflect.Field;
  *
  * 	所以，自己在封装来一个UnsafeWrapper来，通过反射获取JDK里面已经初始化好来的那个Unsafe对象.
  */
-public class UnsafeWrapper {
+public final class UnsafeWrapper {
     private static Class unsafeClass;
     private static Unsafe unsafeInstance;
 
     private UnsafeWrapper() {
-        //no instance
+
     }
 
     private static void init() {
