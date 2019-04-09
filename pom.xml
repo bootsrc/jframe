@@ -12,5 +12,6 @@
     <modules>
         <module>jframe-spring-boot-starter</module>
         <module>jframe-app</module>
+        <module>concurrency</module>
     </modules>
 </project>
