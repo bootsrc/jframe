@@ -29,8 +29,10 @@ public class JavassistDemo {
         CtMethod m = cc.getDeclaredMethod("move");
         // 在方法执行前面插入"埋点"
         m.insertBefore("{ System.out.println(\"dx=\" + $1); System.out.println(\"dy=\" + $2); }");
+
+        // 如果需要把修改好的字节码文件（class文件）保存到磁盘中，才需要添加下面两行，一般场景下，不需要下面的两行
         cc.stopPruning(true);
-        cc.writeFile();
+        cc.writeFile("./output/");
     }
 
     /**
