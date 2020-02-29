@@ -1,4 +1,4 @@
-package com.lsm.nio;
+package com.bootsrc.nio;
 
 import java.nio.ByteBuffer;
 import java.nio.channels.Channels;
@@ -35,6 +35,7 @@ public class ChannelCopy {
         tmp.flip();
         while (tmp.hasRemaining()) {
             des.write(tmp);
+
         }
     }
 

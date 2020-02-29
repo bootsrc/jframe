@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
 
-    <groupId>com.lsm.jframe</groupId>
+    <groupId>com.bootsrc.jframe</groupId>
     <artifactId>jframe</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -15,6 +15,7 @@
         <module>concurrency</module>
         <module>javassist-demo</module>
         <module>nio-demo</module>
+        <module>spring-exe-sequence</module>
     </modules>
 
     <build>
