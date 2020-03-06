@@ -16,6 +16,8 @@
         <module>javassist-demo</module>
         <module>nio-demo</module>
         <module>spring-exe-sequence</module>
+        <module>jvmdemo</module>
+        <module>aopdemo</module>
     </modules>
 
     <build>
