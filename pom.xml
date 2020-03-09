@@ -18,6 +18,8 @@
         <module>spring-exe-sequence</module>
         <module>jvmdemo</module>
         <module>aopdemo</module>
+        <module>cglibdemo</module>
+        <module>spring-senior</module>
     </modules>
 
     <build>
